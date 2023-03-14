@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Big+Shoulders+Display:wght@700&family=Cormorant+SC:wght@300&family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner:wght@400;700&family=Ibarra+Real+Nova:ital,wght@1,600&family=Itim&family=League+Spartan:wght@700&family=Lexend+Deca&family=Roboto:wght@300;400&family=Unbounded:wght@700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;  
+}
+main{
+    width: 100%;
+    background-color:hsl(0, 0%, 100%);
+}
+.background1{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.heading h1{
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+.heading p{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    color: hsl(303, 10%, 53%);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+}
+.sub_heading{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    width: 50%;
+
+}
+.star{
+    display: flex;
+    padding: 0.5rem;
+    margin-left: 1.5rem;
+}
+.star img{
+    width: 1rem;
+    height: 1rem;
+    margin-right:0.5rem ;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    background-color:hsl(300, 24%, 96%);
+    margin-bottom: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 70%;
+}
+.row2{
+    display: flex;
+    background-color:hsl(300, 24%, 96%);
+    margin-bottom: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-left: 4rem;
+    width: 70%;
+}
+.row3{
+    display: flex;
+    background-color:hsl(300, 24%, 96%);
+    margin-bottom: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-left: 8rem;
+    width: 70%;
+}
+.sub_heading h2{
+    margin-left: 1rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: hsl(300, 43%, 22%);
+    margin-right: 3rem;
+}
+.background2{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+.details1{
+    background-color: hsl(300, 43%, 22%) ;
+    border-radius: 0.8rem;
+    width: 30%;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+}
+.details2{
+    background-color: hsl(300, 43%, 22%) ;
+    border-radius: 0.8rem;
+    width: 30%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.details3{
+    background-color: hsl(300, 43%, 22%) ;
+    border-radius: 0.8rem;
+    width: 30%;
+    margin-top: 3rem;
+}
+.person{
+    display: flex;
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+.person img{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    padding-top: 0.3rem;
+}
+.name span{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color:hsl(0, 0%, 100%) ;
+    margin-bottom: 0;
+}
+.name pre{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: hsl(333, 80%, 67%) ;
+    margin-top: 0.1rem;
+}
+.background2 p{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color:hsl(0, 0%, 100%) ;
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 1.5rem;
+}
+@media only screen and (max-width:89.9375rem){
+    .heading{
+        flex-direction: column;
+        width: 100%;
+    }
+    .heading h1{
+        font-size: 2.8rem;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .heading p{
+        font-size: 1.1rem;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .star{
+        display: flex;
+        padding-top: 0.5rem;
+        justify-content: center;
+       
+    }
+    .sub_heading{
+        width: 100%;
+    }
+    .sub_heading h2{
+        margin-left: 1rem;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+        color: hsl(300, 43%, 22%);
+        margin-right: 0;
+        text-align: center;
+        
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .row3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .sub_heading{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .background1{
+        width: 23.4375rem;
+        flex-direction: column;
+    }
+    .background2{
+        display: flex;
+        flex-direction: column;
+        width: 23.4375rem;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 1.2rem;
+        border-radius: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        background-color:hsl(300, 24%, 96%);
+        margin-bottom: 1.2rem;
+        border-radius: 0.5rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row3{
+        display: flex;
+        flex-direction: column;
+        background-color:hsl(300, 24%, 96%);
+        margin-bottom: 1.2rem;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .details1{
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .details2{
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .details3{
+        width: 90%;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
+    }
+
+}
