@@ -220,13 +220,13 @@ main{
         margin-right: auto;
     }
     .background1{
-        width: 23.4375rem;
+        width: 20rem;
         flex-direction: column;
     }
     .background2{
         display: flex;
         flex-direction: column;
-        width: 23.4375rem;
+        width: 20rem;
     }
     .row1{
         display: flex;
